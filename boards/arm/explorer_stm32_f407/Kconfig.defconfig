@@ -1,0 +1,21 @@
+# Kconfig - OLIMEX-STM32-E407 board configuration
+#
+# Copyright (c) 2017, Erwin Rol <erwin@erwinrol.com>
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+if BOARD_EXPLORER_STM32_F407
+
+config BOARD
+	default "explorer_stm32_f407"
+
+if UART_CONSOLE
+
+config UART_1
+	default y
+
+endif # UART_CONSOLE
+
+endif # BOARD_EXPLORER_STM32_F407
+

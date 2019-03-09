@@ -1,0 +1,10 @@
+identifier: explorer_stm32_f407
+name: STM32-F407
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - rtc
